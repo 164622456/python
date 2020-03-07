@@ -182,6 +182,10 @@ class TrainSpider(object):
 
 
 def main():
+    # from_station = input("请输入出发地：")
+    # to_station = input("请输入目的地：")
+    # spider = TrainSpider(from_station, to_station, "2020-04-03", {"D3": ["O", "M"]}, ["杨春苗"])
+
     spider = TrainSpider("北京", "沈阳南", "2020-04-03", {"D3": ["O", "M"]}, ["杨春苗"])
     spider.run()
 
